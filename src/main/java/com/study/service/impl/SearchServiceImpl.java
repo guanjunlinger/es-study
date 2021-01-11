@@ -5,6 +5,7 @@ import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.common.unit.Fuzziness;
 import org.elasticsearch.common.unit.TimeValue;
 import org.elasticsearch.index.query.MatchQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
@@ -34,7 +35,10 @@ public class SearchServiceImpl implements SearchService {
         SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
         searchSourceBuilder.from(0).size(10).timeout(TimeValue.timeValueSeconds(60));
 
-        MatchQueryBuilder matchQueryBuilder = QueryBuilders.matchQuery(field, value);
+        MatchQueryBuilder matchQueryBuilder = QueryBuilders.matchQuery(field, value)
+                .fuzziness(Fuzziness.AUTO)
+                .prefixLength(5)
+                .maxExpansions(10);
         searchSourceBuilder.query(matchQueryBuilder);
         searchSourceBuilder.sort(new ScoreSortBuilder().order(SortOrder.DESC));
 
