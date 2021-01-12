@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="249e5886-bce8-4f88-99d0-ce9d67ce0511" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/controller/CountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/service/CountSearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/service/impl/CountSearchImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/controller/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/service/SearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/impl/SearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/service/impl/SearchServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,35 +23,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/CountSearchService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/impl/CountSearchImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/study/controller/SearchController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/study/controller/CountController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="40" column="83" selection-start-line="40" selection-start-column="83" selection-end-line="40" selection-end-column="83" />
+            <state relative-caret-position="270">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/impl/SearchServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1820">
-              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/SearchService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="90" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -93,8 +93,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/study/controller/BulkController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/study/service/impl/BulkDocumentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/study/service/SearchService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/study/service/impl/SearchServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/study/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/study/service/impl/SearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/study/service/impl/CountSearchImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/study/controller/CountController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/study/service/CountSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/study/service/CountSearchService.java" />
       </list>
     </option>
   </component>
@@ -162,16 +166,6 @@
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="esstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="esstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -186,7 +180,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610458423326" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610459843059" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -235,7 +229,7 @@
       <updated>1609654271434</updated>
       <workItem from="1609654274828" duration="19086000" />
       <workItem from="1609752481191" duration="4244000" />
-      <workItem from="1610369841040" duration="8956000" />
+      <workItem from="1610369841040" duration="10386000" />
     </task>
     <task id="LOCAL-00001" summary="批量请求">
       <created>1609677114904</created>
@@ -272,11 +266,18 @@
       <option name="project" value="LOCAL" />
       <updated>1610377713765</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="解释搜索请求">
+      <created>1610458482356</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610458482357</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34777000" />
+    <option name="totallyTimeSpent" value="36207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
@@ -323,7 +324,8 @@
     <MESSAGE value="批量请求" />
     <MESSAGE value="搜索请求" />
     <MESSAGE value="跨字段搜索请求" />
-    <option name="LAST_COMMIT_MESSAGE" value="跨字段搜索请求" />
+    <MESSAGE value="解释搜索请求" />
+    <option name="LAST_COMMIT_MESSAGE" value="解释搜索请求" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.10.1/elasticsearch-rest-high-level-client-7.10.1.pom" />
@@ -383,16 +385,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/bulk/BulkRequest.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/bulk/BulkProcessor.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/get/MultiGetResponse.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/impl/DocumentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/DocumentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -429,13 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.10.1/elasticsearch-rest-high-level-client-7.10.1.jar!/org/elasticsearch/client/RestHighLevelClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="468" lean-forward="true" selection-start-line="468" selection-end-line="468" />
         </state>
       </provider>
     </entry>
@@ -485,16 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/controller/BulkController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/index/query/QueryBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -520,16 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/impl/SearchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1820">
-          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/SearchService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -537,10 +502,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/impl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/impl/DocumentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="2" selection-end-line="25" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.10.1/elasticsearch-rest-high-level-client-7.10.1.jar!/org/elasticsearch/client/core/CountRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1539">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.10.1/elasticsearch-rest-high-level-client-7.10.1.jar!/org/elasticsearch/client/RestHighLevelClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="445" column="25" selection-start-line="445" selection-start-column="17" selection-end-line="445" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/study/controller/SearchController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="40" column="83" selection-start-line="40" selection-start-column="83" selection-end-line="40" selection-end-column="83" />
+        <state relative-caret-position="316">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="35" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/controller/BulkController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/CountSearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/impl/CountSearchImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/controller/CountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
