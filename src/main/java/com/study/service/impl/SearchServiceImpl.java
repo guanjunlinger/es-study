@@ -1,6 +1,9 @@
 package com.study.service.impl;
 
 import com.study.service.SearchService;
+import org.apache.lucene.search.Explanation;
+import org.elasticsearch.action.explain.ExplainRequest;
+import org.elasticsearch.action.explain.ExplainResponse;
 import org.elasticsearch.action.fieldcaps.FieldCapabilities;
 import org.elasticsearch.action.fieldcaps.FieldCapabilitiesRequest;
 import org.elasticsearch.action.fieldcaps.FieldCapabilitiesResponse;
@@ -17,6 +20,7 @@ import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
+import org.elasticsearch.search.fetch.subphase.FetchSourceContext;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
 import org.elasticsearch.search.sort.ScoreSortBuilder;
 import org.elasticsearch.search.sort.SortOrder;
@@ -116,5 +120,19 @@ public class SearchServiceImpl implements SearchService {
             throw new RuntimeException(e);
         }
         return result;
+    }
+
+    @Override
+    public String explainRequest(String indexName, String documentId, String field, String content) {
+        ExplainRequest explainRequest = new ExplainRequest(indexName, documentId);
+        explainRequest.query(QueryBuilders.termQuery(field, content));
+        try {
+            ExplainResponse explainResponse = restHighLevelClient.explain(explainRequest, RequestOptions.DEFAULT);
+            Explanation explanation = explainResponse.getExplanation();
+            return "" + explanation;
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

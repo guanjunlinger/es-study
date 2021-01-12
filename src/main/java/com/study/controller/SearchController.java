@@ -33,4 +33,12 @@ public class SearchController {
         return searchService.searchFieldCapability(field, indices);
     }
 
+    @GetMapping("/es/search/explain")
+    public Object explainSearch(@RequestParam("indexName") String indexName,
+                                @RequestParam("field") String field,
+                                @RequestParam("documentId") String documentId,
+                                @RequestParam("content") String content) {
+        return searchService.explainRequest(indexName, documentId, field, content);
+    }
+
 }

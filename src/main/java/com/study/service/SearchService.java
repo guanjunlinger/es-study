@@ -9,4 +9,6 @@ public interface SearchService {
 
     List<String> scrollSearch(String indexName, String field, String value);
 
+    String explainRequest(String indexName,String documentId,String field,String content);
+
 }
