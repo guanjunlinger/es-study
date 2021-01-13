@@ -28,5 +28,16 @@ public class IndexController {
         indexService.deleteIndex(indexName);
         return "ok";
     }
+    @PostMapping("/es/search/open")
+    public Object openIndex(@RequestParam("indexName") String indexName) {
+        indexService.openIndex(indexName);
+        return "ok";
+    }
+
+    @PostMapping("/es/search/close")
+    public Object closeIndex(@RequestParam("indexName") String indexName) {
+        indexService.closeIndex(indexName);
+        return "ok";
+    }
 
 }
