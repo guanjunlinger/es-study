@@ -154,7 +154,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610635896218" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611492943958" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -206,7 +206,7 @@
       <workItem from="1610369841040" duration="10386000" />
       <workItem from="1610549951589" duration="6146000" />
       <workItem from="1610800927143" duration="595000" />
-      <workItem from="1611409874692" duration="1284000" />
+      <workItem from="1611409874692" duration="2015000" />
     </task>
     <task id="LOCAL-00001" summary="批量请求">
       <created>1609677114904</created>
@@ -271,11 +271,18 @@
       <option name="project" value="LOCAL" />
       <updated>1610635875263</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="数据类型">
+      <created>1611472286027</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611472286027</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44280000" />
+    <option name="totallyTimeSpent" value="45011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
@@ -325,7 +332,8 @@
     <MESSAGE value="打开和关闭索引请求" />
     <MESSAGE value="索引别名请求" />
     <MESSAGE value="插件" />
-    <option name="LAST_COMMIT_MESSAGE" value="插件" />
+    <MESSAGE value="数据类型" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据类型" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.10.1/elasticsearch-rest-high-level-client-7.10.1.pom" />
