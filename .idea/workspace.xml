@@ -4,8 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/study/service/impl/DocumentServiceImpl.java" line="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249e5886-bce8-4f88-99d0-ce9d67ce0511" name="Default Changelist" comment="全文本搜索">
+    <list default="true" id="249e5886-bce8-4f88-99d0-ce9d67ce0511" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES实战与原理解析.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/ES实战与原理解析.xmind" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,7 +50,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/study/service/DocumentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/study/controller/DocumentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/study/service/impl/DocumentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/study/service/BulkDocumentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/study/controller/BulkController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/study/service/impl/BulkDocumentServiceImpl.java" />
@@ -63,6 +63,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/study/service/IndexService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/study/service/impl/IndexServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/study/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -88,11 +89,6 @@
             <path>
               <item name="es-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="es-study" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="es-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="es-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -110,7 +106,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611659925921" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611660055130" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -143,7 +139,7 @@
       <workItem from="1610549951589" duration="6146000" />
       <workItem from="1610800927143" duration="595000" />
       <workItem from="1611409874692" duration="2015000" />
-      <workItem from="1611659710430" duration="243000" />
+      <workItem from="1611659710430" duration="852000" />
     </task>
     <task id="LOCAL-00001" summary="批量请求">
       <created>1609677114904</created>
@@ -222,11 +218,18 @@
       <option name="project" value="LOCAL" />
       <updated>1611571859185</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="全文本搜索">
+      <created>1611659957184</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611659957184</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47901000" />
+    <option name="totallyTimeSpent" value="48510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
