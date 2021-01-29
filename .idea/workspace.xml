@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="249e5886-bce8-4f88-99d0-ce9d67ce0511" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Logstash.xmind" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES实战与原理解析.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/ES实战与原理解析.xmind" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,6 +79,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -96,7 +97,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,6 +143,7 @@
       <workItem from="1611736749608" duration="603000" />
       <workItem from="1611797693398" duration="2909000" />
       <workItem from="1611820153356" duration="1203000" />
+      <workItem from="1611900492244" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="批量请求">
       <created>1609677114904</created>
@@ -246,7 +247,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53945000" />
+    <option name="totallyTimeSpent" value="54545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -257,7 +258,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.5023148" side_tool="true" weight="0.37975708" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4976852" visible="true" weight="0.43176973" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4976852" visible="true" weight="0.43656716" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
