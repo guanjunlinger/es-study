@@ -90,7 +90,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612058337836" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612066117253" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../adx3.0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -227,11 +227,18 @@
       <option name="project" value="LOCAL" />
       <updated>1611803764830</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ES 正向索引">
+      <created>1612061132570</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1612061132570</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55152000" />
+    <option name="totallyTimeSpent" value="55774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
@@ -285,7 +292,8 @@
     <MESSAGE value="全文本搜索" />
     <MESSAGE value="ES policy" />
     <MESSAGE value="ES monitor" />
-    <option name="LAST_COMMIT_MESSAGE" value="ES monitor" />
+    <MESSAGE value="ES 正向索引" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES 正向索引" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.10.1/elasticsearch-rest-high-level-client-7.10.1.pom" />
