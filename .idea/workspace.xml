@@ -101,8 +101,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612174269599" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wps-template-rec" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612255769345" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../adx3.0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -280,11 +280,18 @@
       <option name="project" value="LOCAL" />
       <updated>1612150213973</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="log stash  file 插件">
+      <created>1612174579385</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1612174579385</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60132000" />
+    <option name="totallyTimeSpent" value="60511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -342,7 +349,8 @@
     <MESSAGE value="ES 数据流" />
     <MESSAGE value="ES inner hit" />
     <MESSAGE value="ES CCR高可用" />
-    <option name="LAST_COMMIT_MESSAGE" value="ES CCR高可用" />
+    <MESSAGE value="log stash  file 插件" />
+    <option name="LAST_COMMIT_MESSAGE" value="log stash  file 插件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.10.1/elasticsearch-rest-high-level-client-7.10.1.pom" />
