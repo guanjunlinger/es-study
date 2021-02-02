@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="249e5886-bce8-4f88-99d0-ce9d67ce0511" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logstash.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/Logstash.xmind" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -101,7 +100,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612255769345" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612256988717" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../adx3.0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -287,11 +286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1612174579385</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="log stash  filter">
+      <created>1612256969445</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1612256969445</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60511000" />
+    <option name="totallyTimeSpent" value="60570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -350,7 +356,8 @@
     <MESSAGE value="ES inner hit" />
     <MESSAGE value="ES CCR高可用" />
     <MESSAGE value="log stash  file 插件" />
-    <option name="LAST_COMMIT_MESSAGE" value="log stash  file 插件" />
+    <MESSAGE value="log stash  filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="log stash  filter" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.10.1/elasticsearch-rest-high-level-client-7.10.1.pom" />
