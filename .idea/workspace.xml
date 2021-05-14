@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="249e5886-bce8-4f88-99d0-ce9d67ce0511" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Kibana.xmind" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES实战与原理解析.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/ES实战与原理解析.xmind" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,7 +20,20 @@
     <favorites_list name="esstudy" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/study/controller/BulkController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +47,8 @@
     <findStrings>
       <find>keyword</find>
       <find>GetAliasesResponse</find>
+      <find>prepareContext</find>
+      <find>prepareEnvironment</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,8 +85,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="20" />
     <option name="y" value="40" />
-    <option name="width" value="2520" />
-    <option name="height" value="1440" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -79,6 +94,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,12 +103,45 @@
               <item name="es-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="es-study" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="es-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="es-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="es-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="es-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="es-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="es-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="es-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="es-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="es-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="es-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -101,8 +151,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612342650784" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../adx3.0" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620985837604" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -140,6 +190,7 @@
       <workItem from="1611820153356" duration="1203000" />
       <workItem from="1611900492244" duration="600000" />
       <workItem from="1612263849758" duration="2495000" />
+      <workItem from="1620810653648" duration="1563000" />
     </task>
     <task id="LOCAL-00001" summary="批量请求">
       <created>1609677114904</created>
@@ -306,7 +357,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63065000" />
+    <option name="totallyTimeSpent" value="68766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -317,7 +368,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.5023148" side_tool="true" weight="0.37975708" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4976852" visible="true" weight="0.3795309" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4976852" visible="true" weight="0.3880597" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -334,6 +385,8 @@
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="RestServices" />
+      <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" />
@@ -370,137 +423,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="log stash  data弹性" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.10.1/elasticsearch-rest-high-level-client-7.10.1.pom" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/config/RestClientConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/index/IndexRequestBuilder.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/ActionRequestBuilder.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/support/replication/ReplicationRequestBuilder.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/index/IndexResponse.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/get/GetRequest.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/search/fetch/subphase/FetchSourceContext.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/update/UpdateRequest.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/termvectors/TermVectorsRequest.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/index/IndexRequest.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/bulk/BulkResponse.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/bulk/BulkRequest.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/bulk/BulkProcessor.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/get/MultiGetResponse.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/DocumentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/BulkDocumentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.10.1/elasticsearch-rest-high-level-client-7.10.1.jar!/org/elasticsearch/client/core/TermVectorsResponse.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/impl/BulkDocumentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="31" column="7" selection-start-line="31" selection-end-line="32" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/search/SearchRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/index/query/MatchQueryBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/controller/DocumentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/index/query/QueryBuilders.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding>
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/common/unit/Fuzziness.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/search/SearchHits.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/index/query/QueryBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/fieldcaps/FieldCapabilitiesRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -550,16 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7695">
           <caret line="468" selection-start-line="468" selection-end-line="468" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/controller/BulkController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,6 +597,238 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.2.9.RELEASE/spring-jcl-5.2.9.RELEASE.jar!/org/apache/commons/logging/LogAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="537" column="21" selection-start-line="537" selection-start-column="21" selection-end-line="537" selection-end-column="21" />
+          <folding>
+            <element signature="e#17865#17866#0" expanded="true" />
+            <element signature="e#17960#17961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.2.9.RELEASE/spring-jcl-5.2.9.RELEASE.jar!/org/apache/commons/logging/Log.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.4.RELEASE/spring-boot-autoconfigure-2.3.4.RELEASE.jar!/org/springframework/boot/autoconfigure/logging/ConditionEvaluationReportLoggingListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="84" column="34" lean-forward="true" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+          <folding>
+            <element signature="e#3072#3073#0" expanded="true" />
+            <element signature="e#3156#3157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.4.RELEASE/spring-boot-autoconfigure-2.3.4.RELEASE.jar!/org/springframework/boot/autoconfigure/logging/ConditionEvaluationReportMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.9.RELEASE/spring-beans-5.2.9.RELEASE.jar!/org/springframework/beans/factory/config/BeanFactoryPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.9.RELEASE/spring-context-5.2.9.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/context/properties/source/SpringConfigurationPropertySources.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/web/context/support/WebApplicationContextUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/web/context/support/StandardServletEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="36" column="61" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/AnnotationConfigServletWebApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.9.RELEASE/spring-core-5.2.9.RELEASE.jar!/org/springframework/core/env/SimpleCommandLinePropertySource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/web/context/support/GenericWebApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="91" column="65" selection-start-line="91" selection-start-column="46" selection-end-line="91" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.9.RELEASE/spring-core-5.2.9.RELEASE.jar!/org/springframework/core/env/MutablePropertySources.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.9.RELEASE/spring-core-5.2.9.RELEASE.jar!/org/springframework/core/env/PropertySource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/context/properties/source/ConfigurationPropertySources.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/EnvironmentConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="27" column="103" lean-forward="true" selection-start-line="27" selection-start-column="103" selection-end-line="27" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.9.RELEASE/spring-context-5.2.9.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="306" column="38" lean-forward="true" selection-start-line="306" selection-start-column="38" selection-end-line="306" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/context/logging/ClasspathLoggingApplicationListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/env/EnvironmentPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/context/config/ConfigFileApplicationListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/context/logging/LoggingApplicationListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="956">
+          <caret line="113" column="44" lean-forward="true" selection-start-line="113" selection-start-column="44" selection-end-line="113" selection-end-column="44" />
+          <folding>
+            <element signature="e#4272#4734#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/logging/LoggingSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/logging/java/JavaLoggingSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#22968#22969#0" expanded="true" />
+            <element signature="e#23012#23013#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/DocWriteRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/bulk/BulkItemResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="200" column="14" selection-start-line="200" selection-start-column="14" selection-end-line="200" selection-end-column="14" />
+          <folding>
+            <element signature="e#8443#8444#0" expanded="true" />
+            <element signature="e#8477#8478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/service/impl/BulkDocumentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/controller/BulkController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
