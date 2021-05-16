@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="249e5886-bce8-4f88-99d0-ce9d67ce0511" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ES实战与原理解析.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/ES实战与原理解析.xmind" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +23,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/study/controller/BulkController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="162">
               <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,10 +82,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="40" />
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+    <option name="x" value="40" />
+    <option name="y" value="80" />
+    <option name="width" value="3880" />
+    <option name="height" value="2200" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -151,7 +150,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620985837604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621159526567" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -190,7 +189,7 @@
       <workItem from="1611820153356" duration="1203000" />
       <workItem from="1611900492244" duration="600000" />
       <workItem from="1612263849758" duration="2495000" />
-      <workItem from="1620810653648" duration="1563000" />
+      <workItem from="1620810653648" duration="2180000" />
     </task>
     <task id="LOCAL-00001" summary="批量请求">
       <created>1609677114904</created>
@@ -353,14 +352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612263874039</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="ES 基础">
+      <created>1620987584444</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1620987584444</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68766000" />
+    <option name="totallyTimeSpent" value="69383000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -420,7 +426,8 @@
     <MESSAGE value="log stash  file 插件" />
     <MESSAGE value="log stash  filter" />
     <MESSAGE value="log stash  data弹性" />
-    <option name="LAST_COMMIT_MESSAGE" value="log stash  data弹性" />
+    <MESSAGE value="ES 基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES 基础" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/fieldcaps/FieldCapabilitiesRequest.class">
@@ -824,7 +831,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/study/controller/BulkController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="162">
           <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
