@@ -20,8 +20,6 @@ import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
-import org.elasticsearch.search.fetch.subphase.FetchSourceContext;
-import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
 import org.elasticsearch.search.sort.ScoreSortBuilder;
 import org.elasticsearch.search.sort.SortOrder;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -69,11 +67,6 @@ public class SearchServiceImpl implements SearchService {
                 .maxExpansions(10);
         searchSourceBuilder.query(matchQueryBuilder);
         searchSourceBuilder.sort(new ScoreSortBuilder().order(SortOrder.DESC));
-
-        HighlightBuilder highlightBuilder = new HighlightBuilder();
-        highlightBuilder.field(field).highlighterType("unified");
-        searchSourceBuilder.highlighter(highlightBuilder);
-
         searchRequest.source(searchSourceBuilder);
 
         try {
