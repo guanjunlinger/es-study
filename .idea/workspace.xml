@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="249e5886-bce8-4f88-99d0-ce9d67ce0511" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/impl/SearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/service/impl/SearchServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/high-level REST client .xmind" beforeDir="false" afterPath="$PROJECT_DIR$/high-level REST client .xmind" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/深入理解ES.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/深入理解ES.xmind" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -161,10 +161,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622284869954" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622376095739" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wps-template-rec" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -201,7 +202,7 @@
       <workItem from="1611900492244" duration="600000" />
       <workItem from="1612263849758" duration="2495000" />
       <workItem from="1620810653648" duration="3502000" />
-      <workItem from="1622121032644" duration="11771000" />
+      <workItem from="1622121032644" duration="17040000" />
     </task>
     <task id="LOCAL-00001" summary="批量请求">
       <created>1609677114904</created>
@@ -378,11 +379,18 @@
       <option name="project" value="LOCAL" />
       <updated>1621159545652</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="ES 客户端API">
+      <created>1622284899321</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1622284899321</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82476000" />
+    <option name="totallyTimeSpent" value="87745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
@@ -448,34 +456,10 @@
     <MESSAGE value="log stash  data弹性" />
     <MESSAGE value="ES 基础" />
     <MESSAGE value="ES 梳理" />
-    <option name="LAST_COMMIT_MESSAGE" value="ES 梳理" />
+    <MESSAGE value="ES 客户端API" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES 客户端API" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/logging/java/JavaLoggingSystem.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#22968#22969#0" expanded="true" />
-            <element signature="e#23012#23013#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/DocWriteRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/bulk/BulkItemResponse.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -840,6 +824,27 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/8.7.0/lucene-core-8.7.0.jar!/org/apache/lucene/analysis/Analyzer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/cluster/routing/allocation/allocator/ShardsAllocator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/cluster/routing/allocation/allocator/BalancedShardsAllocator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="36" />
         </state>
       </provider>
     </entry>
