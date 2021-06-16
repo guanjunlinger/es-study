@@ -9,6 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="249e5886-bce8-4f88-99d0-ce9d67ce0511" name="Default Changelist" comment="ES 索引">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES源码解析.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/ES源码解析.xmind" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,6 +211,7 @@
       <workItem from="1620810653648" duration="3502000" />
       <workItem from="1622121032644" duration="17040000" />
       <workItem from="1622765338541" duration="688000" />
+      <workItem from="1623807777540" duration="757000" />
     </task>
     <task id="LOCAL-00001" summary="批量请求">
       <created>1609677114904</created>
@@ -393,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622284899321</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="ES 索引">
+      <created>1623807823897</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1623807823897</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -452,6 +461,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="批量请求" />
@@ -475,7 +485,8 @@
     <MESSAGE value="ES 基础" />
     <MESSAGE value="ES 梳理" />
     <MESSAGE value="ES 客户端API" />
-    <option name="LAST_COMMIT_MESSAGE" value="ES 客户端API" />
+    <MESSAGE value="ES 索引" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES 索引" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/bulk/BulkItemResponse.class">
