@@ -83,10 +83,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="40" />
-    <option name="y" value="80" />
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="2076" />
+    <option name="height" value="1484" />
   </component>
   <component name="ProjectId" id="1tSbFalOSLAaK3X8kAW0sNVOMl2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -95,6 +95,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,8 +108,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -123,7 +123,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1626830847556" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1627516015472" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -402,7 +402,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.5023148" side_tool="true" weight="0.37975708" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4976852" visible="true" weight="0.29317698" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4976852" visible="true" weight="0.3011727" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="PrintInConsole" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -411,7 +411,7 @@
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32866043" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3271028" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3264642" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
