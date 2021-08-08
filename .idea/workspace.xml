@@ -7,10 +7,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/study/service/impl/DocumentServiceImpl.java" line="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249e5886-bce8-4f88-99d0-ce9d67ce0511" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ES源码解析.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/ES源码解析.xmind" afterDir="false" />
-    </list>
+    <list default="true" id="249e5886-bce8-4f88-99d0-ce9d67ce0511" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -395,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627516170695</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="ES 搜索缓存">
+      <created>1627958943864</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1627958943864</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -419,7 +423,7 @@
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32866043" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32503888" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.324295" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
@@ -455,6 +459,14 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
               </option>
             </State>
           </value>
@@ -499,7 +511,8 @@
     <MESSAGE value="ES 梳理" />
     <MESSAGE value="ES 客户端API" />
     <MESSAGE value="ES 索引" />
-    <option name="LAST_COMMIT_MESSAGE" value="ES 索引" />
+    <MESSAGE value="ES 搜索缓存" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES 搜索缓存" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.10.1/elasticsearch-7.10.1.jar!/org/elasticsearch/action/bulk/BulkItemResponse.class">
