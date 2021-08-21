@@ -9,7 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="249e5886-bce8-4f88-99d0-ce9d67ce0511" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ES源码解析.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/ES源码解析.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES源码解析.xmind" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,10 +84,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-16" />
-    <option name="y" value="-16" />
-    <option name="width" value="2076" />
-    <option name="height" value="1484" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1tSbFalOSLAaK3X8kAW0sNVOMl2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -96,40 +96,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="esstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="esstudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="esstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="esstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="esstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="esstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="esstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="esstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="esstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="esstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -150,16 +124,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1628927555351" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lucene" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1629519640568" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\gitRepository\esstudy" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -202,9 +171,7 @@
       <workItem from="1623807777540" duration="757000" />
       <workItem from="1625703659721" duration="207000" />
       <workItem from="1626317673235" duration="611000" />
-      <workItem from="1628926019219" duration="1540000" />
-      <workItem from="1629001710708" duration="621000" />
-      <workItem from="1629014023958" duration="1628000" />
+      <workItem from="1629517211487" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="批量请求">
       <created>1609677114904</created>
@@ -431,20 +398,29 @@
       <updated>1628410011835</updated>
     </task>
     <task id="LOCAL-00033" summary="ES 搜索缓存">
-      <created>1628927139107</created>
+      <created>1628734581245</created>
       <option name="number" value="00033" />
       <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1628927139107</updated>
+      <updated>1628734581245</updated>
     </task>
     <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91557000" />
+    <option name="totallyTimeSpent" value="88424000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-6" y="-6" width="1293" height="773" extended-state="7" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -452,7 +428,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.5023148" side_tool="true" weight="0.37975708" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4976852" visible="true" weight="0.21481876" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4976852" visible="true" weight="0.47449392" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="PrintInConsole" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -461,7 +437,7 @@
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32866043" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32398754" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.324295" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
@@ -469,7 +445,7 @@
       <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.3281493" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" />
